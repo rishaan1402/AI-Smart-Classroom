@@ -1,0 +1,14 @@
+{
+  "person_id": "geoffery_001",
+  "name": "Geoffery",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T21:00:53.904532",
+  "last_updated": "2025-08-07T21:00:53.904532",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": true,
+  "num_reference_images": 5,
+  "enrollment_method": "webcam",
+  "captured_images": 5
+}

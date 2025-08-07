@@ -1,0 +1,14 @@
+{
+  "person_id": "nikunj_khaitan_001",
+  "name": "Nikunj Khaitan",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T21:02:18.103978",
+  "last_updated": "2025-08-07T21:02:18.103978",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": true,
+  "num_reference_images": 5,
+  "enrollment_method": "webcam",
+  "captured_images": 5
+}

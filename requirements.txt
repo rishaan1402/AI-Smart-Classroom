@@ -1,0 +1,38 @@
+# Person Detection and Identification System Requirements
+
+# Core deep learning and computer vision
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Face recognition and processing
+deepface>=0.0.79
+mtcnn>=0.1.1
+facenet-pytorch>=2.5.3
+
+# Data handling and storage
+pandas>=2.0.0
+pillow>=10.0.0
+
+# Tracking (optional, for enhanced functionality)
+deep-sort-realtime>=1.3.2
+
+# Utilities and performance
+tqdm>=4.65.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# Configuration and logging
+pyyaml>=6.0
+loguru>=0.7.0
+
+# Development and testing
+pytest>=7.4.0
+
+# API Server dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+aiofiles>=23.2.1 

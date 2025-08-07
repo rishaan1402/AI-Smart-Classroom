@@ -1,0 +1,22 @@
+{
+  "person_id": "bob_002",
+  "name": "Bob",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T18:35:57.381661",
+  "last_updated": "2025-08-07T18:35:57.381661",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": true,
+  "num_reference_images": 5,
+  "enrollment_method": "images",
+  "source_images": [
+    "Bob_1.jpg",
+    "Bob_1.jpg",
+    "Bob_2.jpg",
+    "Bob_2.jpg",
+    "Bob_3.jpg"
+  ],
+  "processed_images": 5,
+  "source_folder": "demo_faces\\Bob"
+}

@@ -1,0 +1,30 @@
+{
+  "person_id": "alice_001",
+  "name": "Alice",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T17:16:53.551906",
+  "last_updated": "2025-08-07T17:16:53.551917",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": false,
+  "num_reference_images": 0,
+  "migrated_from_old_db": true,
+  "migration_date": "2025-08-07T17:16:53.551736",
+  "original_metadata": {
+    "name": "Alice",
+    "num_embeddings": 5,
+    "date_added": "2025-08-07T16:59:22.880927",
+    "last_updated": "2025-08-07T16:59:22.880947",
+    "enrollment_method": "images",
+    "source_images": [
+      "Alice_1.jpg",
+      "Alice_2.jpg",
+      "Alice_3.jpg",
+      "Alice_4.jpg",
+      "Alice_5.jpg"
+    ],
+    "processed_images": 5,
+    "source_folder": "demo_faces/Alice"
+  }
+}

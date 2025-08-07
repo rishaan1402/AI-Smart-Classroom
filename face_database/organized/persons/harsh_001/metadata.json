@@ -1,0 +1,22 @@
+{
+  "person_id": "harsh_001",
+  "name": "Harsh",
+  "num_embeddings": 4,
+  "date_added": "2025-08-07T17:16:53.556487",
+  "last_updated": "2025-08-07T17:16:53.556490",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": false,
+  "num_reference_images": 0,
+  "migrated_from_old_db": true,
+  "migration_date": "2025-08-07T17:16:53.556379",
+  "original_metadata": {
+    "name": "Harsh",
+    "num_embeddings": 4,
+    "date_added": "2025-08-07T17:10:30.388112",
+    "last_updated": "2025-08-07T17:10:30.388149",
+    "enrollment_method": "webcam",
+    "captured_images": 4
+  }
+}

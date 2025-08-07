@@ -1,0 +1,14 @@
+{
+  "person_id": "john_doe_001",
+  "name": "John Doe",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T18:43:32.868034",
+  "last_updated": "2025-08-07T18:43:32.868034",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": true,
+  "num_reference_images": 5,
+  "enrollment_method": "webcam",
+  "captured_images": 5
+}

@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "created": "2025-08-07T17:16:53.550650",
+  "last_updated": "2025-08-07T21:02:18.123779",
+  "total_persons": 10,
+  "persons": {
+    "alice_001": {
+      "name": "Alice",
+      "person_id": "alice_001",
+      "date_added": "2025-08-07T17:16:53.551906",
+      "num_embeddings": 5,
+      "directory": "persons/alice_001"
+    },
+    "bob_001": {
+      "name": "Bob",
+      "person_id": "bob_001",
+      "date_added": "2025-08-07T17:16:53.553718",
+      "num_embeddings": 5,
+      "directory": "persons/bob_001"
+    },
+    "harsh_001": {
+      "name": "Harsh",
+      "person_id": "harsh_001",
+      "date_added": "2025-08-07T17:16:53.556487",
+      "num_embeddings": 4,
+      "directory": "persons/harsh_001"
+    },
+    "alice_002": {
+      "name": "Alice",
+      "person_id": "alice_002",
+      "date_added": "2025-08-07T18:35:43.705615",
+      "num_embeddings": 5,
+      "directory": "persons\\alice_002"
+    },
+    "bob_002": {
+      "name": "Bob",
+      "person_id": "bob_002",
+      "date_added": "2025-08-07T18:35:57.381661",
+      "num_embeddings": 5,
+      "directory": "persons\\bob_002"
+    },
+    "john_doe_001": {
+      "name": "John Doe",
+      "person_id": "john_doe_001",
+      "date_added": "2025-08-07T18:43:32.868034",
+      "num_embeddings": 5,
+      "directory": "persons\\john_doe_001"
+    },
+    "mighty_mouse_001": {
+      "name": "Mighty Mouse",
+      "person_id": "mighty_mouse_001",
+      "date_added": "2025-08-07T20:59:46.079064",
+      "num_embeddings": 5,
+      "directory": "persons\\mighty_mouse_001"
+    },
+    "geoffery_001": {
+      "name": "Geoffery",
+      "person_id": "geoffery_001",
+      "date_added": "2025-08-07T21:00:53.904532",
+      "num_embeddings": 5,
+      "directory": "persons\\geoffery_001"
+    },
+    "obishek_kaitohn_001": {
+      "name": "obishek kaitohn",
+      "person_id": "obishek_kaitohn_001",
+      "date_added": "2025-08-07T21:01:36.307432",
+      "num_embeddings": 5,
+      "directory": "persons\\obishek_kaitohn_001"
+    },
+    "nikunj_khaitan_001": {
+      "name": "Nikunj Khaitan",
+      "person_id": "nikunj_khaitan_001",
+      "date_added": "2025-08-07T21:02:18.103978",
+      "num_embeddings": 5,
+      "directory": "persons\\nikunj_khaitan_001"
+    }
+  }
+}

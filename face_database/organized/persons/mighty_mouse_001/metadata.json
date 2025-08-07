@@ -1,0 +1,14 @@
+{
+  "person_id": "mighty_mouse_001",
+  "name": "Mighty Mouse",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T20:59:46.079064",
+  "last_updated": "2025-08-07T20:59:46.079064",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": true,
+  "num_reference_images": 5,
+  "enrollment_method": "webcam",
+  "captured_images": 5
+}

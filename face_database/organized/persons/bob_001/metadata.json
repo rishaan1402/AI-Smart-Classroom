@@ -1,0 +1,30 @@
+{
+  "person_id": "bob_001",
+  "name": "Bob",
+  "num_embeddings": 5,
+  "date_added": "2025-08-07T17:16:53.553718",
+  "last_updated": "2025-08-07T17:16:53.553729",
+  "embedding_shape": [
+    512
+  ],
+  "has_reference_images": false,
+  "num_reference_images": 0,
+  "migrated_from_old_db": true,
+  "migration_date": "2025-08-07T17:16:53.553572",
+  "original_metadata": {
+    "name": "Bob",
+    "num_embeddings": 5,
+    "date_added": "2025-08-07T16:59:27.151675",
+    "last_updated": "2025-08-07T16:59:27.151686",
+    "enrollment_method": "images",
+    "source_images": [
+      "Bob_1.jpg",
+      "Bob_2.jpg",
+      "Bob_3.jpg",
+      "Bob_4.jpg",
+      "Bob_5.jpg"
+    ],
+    "processed_images": 5,
+    "source_folder": "demo_faces/Bob"
+  }
+}
