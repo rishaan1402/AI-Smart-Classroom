@@ -431,4 +431,9 @@ python3 simple_identification_organized.py --info && python3 simple_identificati
 ```bash
 python3 api_server.py
 # Open http://localhost:8000 in your browser
+
+<img width="1242" height="762" alt="Screenshot 2025-08-16 015046" src="https://github.com/user-attachments/assets/9ef87449-7991-4f1f-aba2-1ec21a3d6de9" />
+<img width="864" height="837" alt="Screenshot 2025-08-16 024831" src="https://github.com/user-attachments/assets/f72c98bb-06ae-4d32-9f8e-97f5d3517783" />
+<img width="887" height="503" alt="Screenshot 2025-08-16 024840" src="https://github.com/user-attachments/assets/a008ddae-5eb7-4f60-996f-c3684956bcca" />
+
 ``` 
