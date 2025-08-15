@@ -159,7 +159,7 @@ async def root():
             <div class="section">
                 <h2>📹 Live Video Stream</h2>
                 <div class="video-container">
-                    <img id="videoStream" src="/stream" alt="Video Stream" style="display:none;">
+                    <img id="videoStream" src="" alt="Video Stream" style="display:none;">
                     <div id="streamStatus">Click "Start Stream" to begin video feed</div>
                 </div>
                 <button onclick="startStream()">Start Stream</button>
@@ -198,7 +198,10 @@ async def root():
                     const result = await response.json();
                     
                     if (result.status === 'success') {
-                        document.getElementById('videoStream').style.display = 'block';
+                        const videoStream = document.getElementById('videoStream');
+                        // Set the src only after the stream is confirmed to be active
+                        videoStream.src = "/stream?t=" + new Date().getTime(); // Timestamp prevents caching
+                        videoStream.style.display = 'block';
                         document.getElementById('streamStatus').textContent = 'Stream active';
                         streamActive = true;
                     } else {
@@ -214,13 +217,16 @@ async def root():
                     const response = await fetch('/stop_stream', { method: 'POST' });
                     const result = await response.json();
                     
-                    document.getElementById('videoStream').style.display = 'none';
+                    const videoStream = document.getElementById('videoStream');
+                    videoStream.style.display = 'none';
+                    videoStream.src = ""; // Clear the src to stop the stream
                     document.getElementById('streamStatus').textContent = 'Stream stopped';
                     streamActive = false;
                 } catch (error) {
                     document.getElementById('streamStatus').textContent = 'Error stopping stream: ' + error.message;
                 }
             }
+
 
             async function loadPersons() {
                 try {
